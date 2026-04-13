@@ -30,9 +30,9 @@ export default function Solutions() {
                 <div className="flex-1 bg-destructive/10 rounded-xl p-4">
                   <p className="text-sm font-medium text-destructive line-through">{item.before}</p>
                 </div>
-                <ArrowRight className="w-5 h-5 text-secondary shrink-0" />
-                <div className="flex-1 rounded-xl p-4" style={{ background: "hsl(160 84% 39% / 0.1)" }}>
-                  <p className="text-sm font-bold text-secondary">{item.after}</p>
+                <ArrowRight className="w-5 h-5 text-primary shrink-0" />
+                <div className="flex-1 rounded-xl p-4 bg-primary/10">
+                  <p className="text-sm font-bold text-primary">{item.after}</p>
                 </div>
               </div>
             </div>

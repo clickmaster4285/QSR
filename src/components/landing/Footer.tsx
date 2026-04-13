@@ -8,24 +8,24 @@ const links = {
 
 export default function Footer() {
   return (
-    <footer className="bg-foreground text-primary-foreground/70 py-16 px-4">
+    <footer className="bg-card border-t border-border py-16 px-4">
       <div className="container mx-auto">
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div>
-            <p className="text-2xl font-extrabold font-heading text-primary-foreground mb-4">
-              Swift<span className="text-primary">POS</span>
+            <p className="text-2xl font-extrabold font-heading text-foreground mb-4">
+              Swift<span className="gradient-text">POS</span>
             </p>
-            <p className="text-sm leading-relaxed">
+            <p className="text-sm leading-relaxed text-muted-foreground">
               The smartest POS solution built exclusively for quick-service restaurants. Serving faster since 2018.
             </p>
           </div>
           {Object.entries(links).map(([title, items]) => (
             <div key={title}>
-              <p className="font-bold text-primary-foreground mb-4">{title}</p>
+              <p className="font-bold text-foreground mb-4">{title}</p>
               <ul className="space-y-2">
                 {items.map((item) => (
                   <li key={item}>
-                    <a href="#" className="text-sm hover:text-primary transition-colors">{item}</a>
+                    <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">{item}</a>
                   </li>
                 ))}
               </ul>
@@ -33,8 +33,8 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm">© 2026 SwiftPOS. All rights reserved.</p>
+        <div className="border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-sm text-muted-foreground">© 2026 SwiftPOS. All rights reserved.</p>
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="w-10 h-10 rounded-full bg-primary flex items-center justify-center hover:bg-primary/90 transition-colors"
