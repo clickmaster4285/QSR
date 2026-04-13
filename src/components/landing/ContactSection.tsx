@@ -59,11 +59,12 @@ export default function ContactSection() {
                 <label className="text-sm font-medium text-foreground mb-1.5 block">Phone</label>
                 <Input
                   type="tel"
-                  placeholder="+1 (555) 000-0000"
+                  placeholder="+92 30000 00000"
                   value={form.phone}
                   onChange={(e) => setForm({ ...form, phone: e.target.value })}
                   className="bg-muted/50"
                 />
+                
               </div>
               <div>
                 <label className="text-sm font-medium text-foreground mb-1.5 block">Message</label>
@@ -77,11 +78,9 @@ export default function ContactSection() {
                 />
               </div>
               <Button type="submit" size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 rounded-full">
-                <Send className="w-5 h-5 mr-2" /> Request Free Demo
+                <Send className="w-5 h-5 mr-2" /> Send a message
               </Button>
-              <p className="text-xs text-center text-muted-foreground">
-                🔒 Your information is 100% secure. We never share your data.
-              </p>
+           
             </form>
           </div>
 
@@ -90,35 +89,34 @@ export default function ContactSection() {
               <MapPin className="w-6 h-6 text-primary shrink-0 mt-0.5" />
               <div>
                 <p className="font-bold text-sm text-foreground">Address</p>
-                <p className="text-sm text-muted-foreground">123 Tech Park, Suite 400<br />San Francisco, CA 94105</p>
+                <p className="text-sm text-muted-foreground">Main PWD Rd, Islamabad, Punjab, Pakistan</p>
               </div>
             </div>
             <div className="glass-card p-6 flex items-start gap-4">
               <Mail className="w-6 h-6 text-primary shrink-0 mt-0.5" />
               <div>
                 <p className="font-bold text-sm text-foreground">Email</p>
-                <p className="text-sm text-muted-foreground">hello@swiftpos.com</p>
+                <p className="text-sm text-muted-foreground">marketing@clickmasters.pk</p>
+                 <p className="text-sm text-muted-foreground">info@clickmasters.pk</p>
               </div>
             </div>
             <div className="glass-card p-6 flex items-start gap-4">
               <Phone className="w-6 h-6 text-primary shrink-0 mt-0.5" />
               <div>
                 <p className="font-bold text-sm text-foreground">Phone</p>
-                <p className="text-sm text-muted-foreground">+1 (555) 987-6543</p>
+                <p className="text-sm text-muted-foreground">+92 333-1116842</p>
+                   <p className="text-sm text-muted-foreground">+92 332-5394285</p>
               </div>
             </div>
             <div className="glass-card p-6 flex items-start gap-4">
               <Clock className="w-6 h-6 text-primary shrink-0 mt-0.5" />
               <div>
                 <p className="font-bold text-sm text-foreground">Working Hours</p>
-                <p className="text-sm text-muted-foreground">Mon — Fri: 9 AM – 6 PM<br />Support: 24/7</p>
+                <p className="text-sm text-muted-foreground">Mon — Sat: 9 AM – 6 PM<br />Support: 24/7</p>
               </div>
             </div>
 
-            <div className="rounded-2xl p-6 text-center" style={{ background: "var(--gradient-primary)" }}>
-              <p className="text-primary-foreground font-bold font-heading text-lg mb-1">⏰ Limited Offer</p>
-              <p className="text-primary-foreground/80 text-sm">Book this month and get 3 months free support + setup!</p>
-            </div>
+          
           </div>
         </div>
       </div>

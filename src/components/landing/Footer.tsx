@@ -16,7 +16,7 @@ export default function Footer() {
               Swift<span className="gradient-text">POS</span>
             </p>
             <p className="text-sm leading-relaxed text-muted-foreground">
-              The smartest POS solution built exclusively for quick-service restaurants. Serving faster since 2018.
+              The smartest POS solution built exclusively for quick-service restaurants.
             </p>
           </div>
           {Object.entries(links).map(([title, items]) => (

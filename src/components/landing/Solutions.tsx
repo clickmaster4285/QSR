@@ -14,7 +14,7 @@ export default function Solutions() {
   return (
     <section className="section-padding" ref={ref}>
       <div className="container mx-auto text-center">
-        <p className="text-sm font-semibold text-secondary uppercase tracking-widest mb-3 animate-on-scroll">The Solution</p>
+        <p className="text-sm font-semibold text-primary uppercase tracking-widest mb-3 animate-on-scroll">The Solution</p>
         <h2 className="section-title mb-4 animate-on-scroll">
           From Chaos to <span className="gradient-text">Control</span>
         </h2>

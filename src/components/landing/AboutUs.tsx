@@ -21,12 +21,22 @@ export default function AboutUs() {
             <h2 className="section-title mb-6 text-left">
               We Build Technology That <span className="gradient-text">Feeds the World</span>
             </h2>
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              SwiftPOS was founded with a simple mission: help quick-service restaurants serve better, faster, and smarter. Our team of 50+ engineers, designers, and QSR experts have spent 8 years perfecting the ultimate POS platform.
-            </p>
-            <p className="text-muted-foreground leading-relaxed mb-8">
-              From a single-outlet burger shop to a 200-branch franchise, we've powered growth for restaurants across 15 countries. We don't just sell software — we partner with you for success.
-            </p>
+
+        <p className="text-muted-foreground leading-relaxed mb-4">
+  Clickmasters began as a small team of passionate developers with a shared vision — to build meaningful software that solves real business problems. Over time, we have grown into a full-service software development company delivering modern, scalable, and high-performance digital solutions.
+</p>
+
+<p className="text-muted-foreground leading-relaxed mb-4">
+  Throughout our journey, we have worked with a wide range of clients — from early-stage startups to established enterprises across multiple industries. Each collaboration has helped us refine our approach to building web, mobile, and cloud-based applications that are practical, scalable, and impact-driven.
+</p>
+
+<p className="text-muted-foreground leading-relaxed mb-4">
+  Today, Clickmasters is recognized as a trusted technology partner, helping businesses streamline operations, improve efficiency, and accelerate growth through custom software systems and modern digital platforms.
+</p>
+
+<p className="text-muted-foreground leading-relaxed mb-8">
+  As a leading software development company in Pakistan, we specialize in web and mobile applications, custom software solutions, cloud integrations, and enterprise systems. Our mission is to empower businesses of all sizes with technology that drives performance, innovation, and long-term success.
+</p>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
               {highlights.map((h, i) => (

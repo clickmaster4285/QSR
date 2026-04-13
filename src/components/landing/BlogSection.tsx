@@ -40,9 +40,7 @@ export default function BlogSection() {
                 </div>
                 <h3 className="font-bold font-heading text-foreground mb-2 group-hover:text-primary transition-colors leading-snug">{post.title}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed mb-4">{post.excerpt}</p>
-                <span className="text-sm font-semibold text-primary flex items-center gap-1 group-hover:gap-2 transition-all">
-                  Read More <ArrowRight className="w-4 h-4" />
-                </span>
+             
               </div>
             </article>
           ))}
