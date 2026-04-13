@@ -42,21 +42,21 @@ export default function HeroSection() {
         </div>
       ))}
 
-      <div className="absolute inset-0 bg-gradient-to-r from-foreground/80 via-foreground/60 to-foreground/30" />
+      <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/75 to-background/40" />
 
       <div className="relative z-10 container mx-auto h-full flex flex-col justify-center px-4">
         <div className="max-w-3xl">
-          <div className="inline-flex items-center gap-2 bg-primary/20 backdrop-blur-sm border border-primary/30 rounded-full px-4 py-1.5 mb-6">
+          <div className="inline-flex items-center gap-2 bg-primary/15 backdrop-blur-sm border border-primary/30 rounded-full px-4 py-1.5 mb-6">
             <Zap className="w-4 h-4 text-primary" />
-            <span className="text-sm font-medium text-primary-foreground/90">#1 POS Solution for QSRs</span>
+            <span className="text-sm font-medium text-primary">#1 POS Solution for QSRs</span>
           </div>
 
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold font-heading leading-tight mb-6" style={{ color: "hsl(0 0% 100%)" }}>
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold font-heading leading-tight mb-6 text-foreground">
             Serve Faster. Sell More.{" "}
             <span className="gradient-text">Run Your Restaurant Smarter.</span>
           </h1>
 
-          <p className="text-lg md:text-xl mb-8 max-w-xl" style={{ color: "hsl(0 0% 100% / 0.8)" }}>
+          <p className="text-lg md:text-xl mb-8 max-w-xl text-muted-foreground">
             Boost profits, eliminate order errors, and delight every customer with the smartest POS built exclusively for quick-service restaurants.
           </p>
 
@@ -72,7 +72,7 @@ export default function HeroSection() {
               onClick={() => document.querySelector("#features")?.scrollIntoView({ behavior: "smooth" })}
               size="lg"
               variant="outline"
-              className="rounded-full px-8 text-base border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
+              className="rounded-full px-8 text-base border-foreground/30 text-foreground hover:bg-foreground/10"
             >
               Explore Features
             </Button>
@@ -85,8 +85,8 @@ export default function HeroSection() {
                   <s.icon className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <div>
-                  <p className="text-2xl font-bold font-heading" style={{ color: "hsl(0 0% 100%)" }}>{s.value}</p>
-                  <p className="text-sm" style={{ color: "hsl(0 0% 100% / 0.7)" }}>{s.label}</p>
+                  <p className="text-2xl font-bold font-heading text-foreground">{s.value}</p>
+                  <p className="text-sm text-muted-foreground">{s.label}</p>
                 </div>
               </div>
             ))}
@@ -100,7 +100,7 @@ export default function HeroSection() {
             key={i}
             onClick={() => setCurrent(i)}
             className={`h-2 rounded-full transition-all duration-300 ${
-              i === current ? "w-8 bg-primary" : "w-2 bg-primary-foreground/40"
+              i === current ? "w-8 bg-primary" : "w-2 bg-foreground/40"
             }`}
           />
         ))}
