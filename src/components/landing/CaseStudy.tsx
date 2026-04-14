@@ -23,14 +23,14 @@ export default function CaseStudy() {
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-on-scroll">
-            <img src={caseStudyImg} alt="Restaurant owner using SwiftPOS analytics" className="rounded-2xl shadow-lg w-full" loading="lazy" width={1280} height={720} />
+            <img src={caseStudyImg} alt="Restaurant owner using QuickCrave analytics" className="rounded-2xl shadow-lg w-full" loading="lazy" width={1280} height={720} />
           </div>
           <div className="animate-on-scroll stagger-2">
             <h3 className="text-2xl font-bold font-heading mb-4 text-foreground">
               How "Burger Blitz" 3x'd Their Daily Orders
             </h3>
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              Burger Blitz, a 5-outlet fast food chain, was drowning in manual processes. After implementing SwiftPOS, they cut wait times from 12 minutes to under 3, eliminated 85% of order errors, and saw a 35% revenue increase within just 90 days.
+              Burger Blitz, a 5-outlet fast food chain, was drowning in manual processes. After implementing QuickCrave, they cut wait times from 12 minutes to under 3, eliminated 85% of order errors, and saw a 35% revenue increase within just 90 days.
             </p>
             <div className="grid grid-cols-2 gap-4">
               {metrics.map((m, i) => (

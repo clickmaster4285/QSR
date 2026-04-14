@@ -43,7 +43,7 @@ export default function Features() {
             ))}
           </div>
           <div className="animate-on-scroll stagger-3">
-            <img src={posMockup} alt="SwiftPOS tablet interface showing restaurant menu" className="rounded-2xl shadow-lg w-full" loading="lazy" width={1280} height={720} />
+            <img src={posMockup} alt="QuickCrave tablet interface showing restaurant menu" className="rounded-2xl shadow-lg w-full" loading="lazy" width={1280} height={720} />
           </div>
         </div>
       </div>

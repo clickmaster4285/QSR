@@ -19,7 +19,7 @@ export default function Solutions() {
           From Chaos to <span className="gradient-text">Control</span>
         </h2>
         <p className="section-subtitle mb-16 animate-on-scroll">
-          See how SwiftPOS transforms every pain point into a competitive advantage.
+          See how QuickCrave transforms every pain point into a competitive advantage.
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">

@@ -3,7 +3,7 @@ import { Phone, Monitor, Settings, Rocket } from "lucide-react";
 
 const steps = [
   { icon: Phone, title: "Contact Us", desc: "Reach out via our form or call. We'll understand your unique needs." },
-  { icon: Monitor, title: "Free Demo", desc: "See SwiftPOS in action with a personalized walkthrough of every feature." },
+  { icon: Monitor, title: "Free Demo", desc: "See QuickCrave in action with a personalized walkthrough of every feature." },
   { icon: Settings, title: "Easy Setup", desc: "Our team configures everything — menu, pricing, integrations — in 24 hours." },
   { icon: Rocket, title: "Go Live!", desc: "Start serving faster from day one with full training and support." },
 ];

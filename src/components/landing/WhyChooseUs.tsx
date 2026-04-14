@@ -25,10 +25,10 @@ export default function WhyChooseUs() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {reasons.map((r, i) => (
             <div key={i} className={`animate-on-scroll stagger-${i + 1} glass-card p-8 hover-lift group`}>
-              <r.icon className="w-10 h-10 text-primary mx-auto mb-4 group-hover:scale-110 transition-transform" />
-              <p className="text-3xl font-extrabold font-heading gradient-text mb-1">{r.stat}</p>
+              <r.icon className="w-7 h-7 text-primary mx-auto mb-4 group-hover:scale-110 transition-transform" />
+              <p className="text-2xl font-extrabold font-heading gradient-text mb-1">{r.stat}</p>
               <p className="text-xs text-muted-foreground mb-4">{r.statLabel}</p>
-              <h3 className="text-lg font-bold font-heading mb-2 text-foreground">{r.title}</h3>
+           
               <p className="text-sm text-muted-foreground">{r.desc}</p>
             </div>
           ))}

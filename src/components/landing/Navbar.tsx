@@ -36,7 +36,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between px-4">
         <a href="#" className="text-2xl font-extrabold font-heading tracking-tight text-foreground">
-          Swift<span className="gradient-text">POS</span>
+          Quick<span className="gradient-text">Crave</span>
         </a>
 
         <div className="hidden lg:flex items-center gap-8">

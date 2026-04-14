@@ -50,7 +50,7 @@ export default function AboutUs() {
           </div>
 
           <div className="animate-on-scroll stagger-2">
-            <img src={aboutTeam} alt="SwiftPOS team working together" className="rounded-2xl shadow-lg w-full" loading="lazy" width={1280} height={720} />
+            <img src={aboutTeam} alt="QuickCrave team working together" className="rounded-2xl shadow-lg w-full" loading="lazy" width={1280} height={720} />
           </div>
         </div>
       </div>

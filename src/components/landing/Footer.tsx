@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div>
             <p className="text-2xl font-extrabold font-heading text-foreground mb-4">
-              Swift<span className="gradient-text">POS</span>
+              Quick<span className="gradient-text">Crave</span>
             </p>
             <p className="text-sm leading-relaxed text-muted-foreground">
               The smartest POS solution built exclusively for quick-service restaurants.
@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-muted-foreground">© 2026 SwiftPOS. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">© 2026 QuickCrave. All rights reserved.</p>
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="w-10 h-10 rounded-full bg-primary flex items-center justify-center hover:bg-primary/90 transition-colors"

@@ -3,9 +3,9 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 
 const testimonials = [
-  { name: "Ravi Sharma", role: "Owner, Spice Express", text: "SwiftPOS cut our billing time by 70%. Our staff loves how easy it is, and customers notice the faster service.", rating: 5 },
+  { name: "Ravi Sharma", role: "Owner, Spice Express", text: "QuickCrave cut our billing time by 70%. Our staff loves how easy it is, and customers notice the faster service.", rating: 5 },
   { name: "Priya Patel", role: "Manager, Fresh Bites", text: "The inventory tracking alone saved us thousands in waste. And the analytics help us plan our menu perfectly.", rating: 5 },
-  { name: "Ahmed Khan", role: "CEO, Burger Hub Chain", text: "Managing 12 branches from one dashboard changed everything. We scaled from 3 to 12 outlets in a year with SwiftPOS.", rating: 5 },
+  { name: "Ahmed Khan", role: "CEO, Burger Hub Chain", text: "Managing 12 branches from one dashboard changed everything. We scaled from 3 to 12 outlets in a year with QuickCrave.", rating: 5 },
   { name: "Lisa Chen", role: "Owner, Wok & Roll", text: "24/7 support is real — I called at 2 AM on a Saturday and got help in 3 minutes. That's unheard of.", rating: 5 },
 ];
 
